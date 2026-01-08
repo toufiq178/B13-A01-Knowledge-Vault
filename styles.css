@@ -17,6 +17,7 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
+    text-align: center;
 
 }
 .btn:hover {
@@ -40,4 +41,95 @@
     display: flex;
     gap:  34px;
     color: black;
+}
+
+/* banner-section */
+.banner-section{
+
+    background-image: linear-gradient(#00193133, #00193133),  url('./assets/hero-bg.png');
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    height: 674px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content: center; 
+    align-items: center
+}
+.banner-section .banner-content {
+
+    
+  
+
+}
+
+.banner-section .banner-content .banner-top-text {
+
+    background-color: white;
+    color: #469165;
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    font-weight: 500px;
+    padding: 8px 12px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+
+
+
+.banner-section .banner-content h1 {
+
+    color: white;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.2;
+    width: 770px;
+    text-align: center;
+    margin-top: 16px;
+    margin: 16px 295px;
+    text-shadow: 0 4px 4px 0 #00000040;
+
+
+}
+.banner-section .banner-content h1 span {
+    display: block;          
+    color: #30B868; 
+    
+}
+
+.banner-section .banner-content .banner-detail{
+    font-size: 18px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    line-height: 24px;
+}
+.banner-section .banner-content .banner-button-container {
+
+    margin-top: 32px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px;
+}
+.banner-section .banner-content .banner-button-container .btn1  {
+
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+   
+.banner-section .banner-content .banner-button-container .btn2 {
+
+    background-color: transparent;
+    border: 1px solid white;
 }
