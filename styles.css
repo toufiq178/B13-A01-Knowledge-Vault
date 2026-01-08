@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+
+/* shared-style */
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    padding: 12px 16px;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.btn:hover {
+
+    background-color: #2d5f42;
+}
+
+
+
+/* main-style */
+
+/* navigation-section */
+.nav-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+.nav-container .nav-content  {
+    display: flex;
+    gap:  34px;
+    color: black;
+}
