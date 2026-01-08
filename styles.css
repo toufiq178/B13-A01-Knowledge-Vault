@@ -25,7 +25,13 @@
     background-color: #2d5f42;
 }
 
+.section-heading{
 
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+
+}
 
 /* main-style */
 
@@ -132,16 +138,13 @@
     color: #30B868;
 }
 
+
+/* notes-section */
 .notes-container{
     text-align: center;                         
 
 }
-.notes-container .section-heading{
 
-    font-size: 48px;
-    font-weight: bold;
-
-}
 .notes-container .section-sub-heading{
 
     font-size: 16px;
@@ -162,7 +165,6 @@
     height: 300px;
     padding: 24px;
     border: none;
-    
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 8px 0 #0000000F ;    
@@ -187,4 +189,53 @@
     line-height: 20px;
     color: #627382;
     margin-top: 16px;
+}
+
+/* secound-brain-section */
+
+#secound-brain {
+    margin: 120px;
+}
+#secound-brain .secound-brain-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+#secound-brain .secound-brain-container .brain-content .p1{
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#secound-brain .secound-brain-container .brain-content .section-heading span {
+    display: block;
+    margin-bottom: 16px;
+}
+#secound-brain .secound-brain-container .brain-content .p2{
+
+    font-size: 16px ;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #627382;
+}
+.brain-content .p2 span {
+    display: block;
+}
+#secound-brain .secound-brain-container .brain-content ul{
+    list-style: none;
+    padding: 0;
+}
+#secound-brain .secound-brain-container .brain-content ul li {
+    background: url("./assets/CheckCircle.png") no-repeat left center;
+    padding-left: 28px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
 }
