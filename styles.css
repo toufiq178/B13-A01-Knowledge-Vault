@@ -270,8 +270,6 @@
     border-radius: 12px;
     
 }
-
-
 #early-access h2 {
 
     padding-top: 80px;
@@ -282,8 +280,45 @@
     line-height: 24px;
     padding-bottom: 8px;
 }
-
 #early-access .p2{
     padding-bottom: 80px;
     line-height: 20px;
+}
+
+/* footer section */
+
+footer {
+    margin-top: 80px;
+    background-color: #001931;
+}
+
+footer .footer-containder{
+    padding: 120px 120px 0 120px;
+    text-align: center;
+}
+footer .footer-containder .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+footer .footer-containder .footer-content .socail {
+    text-align: left;
+}
+footer .footer-containder .footer-content .socail p{
+    color: white;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+footer .footer-containder .footer-content .socail a{
+    padding-right: 16px;
+}
+footer .footer-containder .copyright-tag {
+    color: #fafafabd;
+    padding: 30px 0;
+
+}
+footer .footer-containder hr {
+    border: 1px solid #fafafa5d;
 }
