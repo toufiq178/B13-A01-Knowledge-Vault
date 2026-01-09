@@ -18,6 +18,7 @@
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 
 }
 .btn:hover {
@@ -46,6 +47,10 @@
 .nav-container .nav-content  {
     display: flex;
     gap:  34px;
+}
+.nav-container .nav-content a{
+
+    text-decoration: none;
     color: black;
 }
 
@@ -66,12 +71,11 @@
 .banner-section .banner-content .banner-top-text {
 
     background-color: white;
-    color: #469165;
     width: fit-content;
-    display: flex;
     margin: 0 auto;
     font-weight: 500px;
     padding: 8px 12px;
+    display:flex;
     justify-content: center;
     text-align: center;
     border-radius: 1000px;
@@ -79,8 +83,20 @@
     box-shadow: 0 4px 4px 0 #00000040;
 }
 .banner-content .banner-top-text:hover{
-    background-color: #2d5f42;
+    background-color: #2d5f42c9;
     color: white;
+}
+.banner-section .banner-content .banner-top-text a{
+    font-style: normal;
+    text-decoration: none;
+    color: #469165;
+
+}
+.banner-section .banner-content .banner-top-text a img{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+
 }
 
 .banner-section .banner-content h1 {
@@ -121,10 +137,9 @@
     justify-content: center;
     padding: 16px;
 }
-.banner-section .banner-content .banner-button-container .btn1  {
+.banner-section .banner-content .banner-button-container .btn1 , .btn2 ,#early-access .btn3  {
 
     display: inline-flex; 
-    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -136,7 +151,7 @@
     border: 1px solid white;
 }
 .banner-button-container .btn2:hover {
-
+    border: 1px solid #30B868 ;
     color: #30B868;
 }
 
@@ -174,8 +189,10 @@
 .notes-container .notes-content .notes-card img {
 
     margin-top: 69px;
+    height: 32px ;
+    width: 32px;
+    padding: 20px;
     background-color: #F95555;
-    padding: 32px 32px;
     border-radius: 50%;
 }
 .notes-container .notes-content .notes-card h4 {
@@ -213,7 +230,7 @@
     font-weight: 500;
     margin-bottom: 16px;
 }
-#secound-brain .secound-brain-container .brain-content .section-heading span {
+#secound-brain .secound-brain-container .brain-content .section-heading span ,#early-access p span{
     display: block;
     margin-bottom: 16px;
 }
@@ -240,4 +257,33 @@
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+}
+
+/* early-access-section */
+
+#early-access {
+ 
+    width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    
+}
+
+
+#early-access h2 {
+
+    padding-top: 80px;
+}
+#early-access p{
+    padding-top: 16px;
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+#early-access .p2{
+    padding-bottom: 80px;
+    line-height: 20px;
 }
